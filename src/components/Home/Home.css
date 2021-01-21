@@ -1,0 +1,50 @@
+.home_image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -250px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home {
+  max-width: 1500px;
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.home_product_slider {
+  padding: 20px;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  top: 50%;
+  background-color: blanchedalmond;
+}
+
+.slick-next {
+  margin-right: 5%;
+}
+
+.slick-prev {
+  margin-left: 5%;
+  z-index: 99;
+}
+
+.slick-slide .product-card {
+  margin: 0 10px;
+}
+
+.product-slider {
+  margin: 10px;
+}

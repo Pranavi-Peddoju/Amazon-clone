@@ -1,0 +1,16 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: max-content;
+  background-color: rgb(243, 243, 243);
+}
+
+.orders_container {
+  background-color: white;
+}
+
+.orders > h2 {
+  text-align: center;
+  margin-top: 8px;
+}

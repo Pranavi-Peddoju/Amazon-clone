@@ -1,0 +1,119 @@
+.payment {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: max-content;
+  background-color: rgb(243, 243, 243);
+}
+
+.paymentContainer {
+  background-color: white;
+}
+
+.samplebutton {
+  float: right;
+  margin-top: 20px;
+}
+
+.card_element {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid rgb(107, 116, 119);
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.payment_section {
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  margin-left: 20px;
+  height: auto;
+  padding: 25px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment > h2 {
+  text-align: center;
+}
+
+.payment > h2 a {
+  text-decoration: none;
+  color: rgb(199, 0, 0);
+}
+
+.payment_products {
+  margin-left: 20px;
+  margin-right: 27px;
+}
+
+.payment_products > .payment_title > h3 {
+  margin-left: 27px;
+  flex: 0.2;
+}
+
+.payment_address {
+  margin: 15px;
+  margin-left: 80px;
+  font-size: 15px;
+  flex: 0.8;
+}
+
+.payment_subtotal {
+  text-align: right;
+  padding: 20px;
+}
+
+.payment_title {
+  flex: 0.2;
+}
+
+.payment_details {
+  flex: 0.5;
+}
+
+.payment_priceDetails {
+  text-align: center;
+
+  width: 200px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  right: 10px;
+  left: auto;
+}
+
+.payment_priceDetails > h3 {
+  margin-top: 20px;
+}
+
+.payment_button {
+  margin: 20px;
+  padding: 8px;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734;
+  border-radius: 5px;
+  width: 100%;
+}

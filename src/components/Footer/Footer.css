@@ -1,0 +1,8 @@
+.footer {
+  min-height: 800px;
+  background-color: #131921;
+}
+
+.header > h1 {
+  color: rgb(255, 255, 255);
+}

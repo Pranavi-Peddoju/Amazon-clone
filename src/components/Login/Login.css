@@ -1,0 +1,102 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_logo {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  object-fit: contain;
+}
+
+.login_container {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.login_container > h2 {
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+/* .login__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+} */
+
+.login_container > form > label {
+  margin-bottom: 5px;
+}
+
+.formfield {
+  margin: 4px;
+}
+
+.formfield > label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formfield_input {
+  border: 1px solid black;
+}
+
+.login_container > form > input,
+.inputpass {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login_agree {
+  margin-top: 15px;
+  font-size: 12px;
+  color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: row;
+}
+
+.login_signInButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline-style: none;
+}
+
+.login_registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}
+.checkbox {
+  margin-right: 7px;
+}
+.login_signInButton:hover {
+  background: #eeb933;
+}
